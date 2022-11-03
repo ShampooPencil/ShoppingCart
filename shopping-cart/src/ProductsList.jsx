@@ -1,15 +1,13 @@
-import React from "react";
+import { useState } from "react";
 import PropTypes from "prop-types";
+import Product from "./Product";
 //import { Test } from './ProductsList.styles';
 
-const ProductsList = (props) => <div className="ProductsListWrapper"></div>;
+export default function ProductsList() {
+  const [product, setProduct] = [];
+  const [name, setName] = useState("");
+  const [description, setDescription] = useState("");
 
-ProductsList.propTypes = {
-  // bla: PropTypes.string,
-};
-
-ProductsList.defaultProps = {
-  // bla: 'test',
-};
-
-export default ProductsList;
+  function handleNameInput(e) {}
+  return <div></div>;
+}
