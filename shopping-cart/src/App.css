@@ -1,5 +1,8 @@
-.App {
+.storeFront {
+  display: flexbox;
+  flex-direction: column;
   text-align: center;
+  border: solid #282c34;
 }
 
 .App-logo {
